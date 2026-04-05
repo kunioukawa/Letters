@@ -1,0 +1,755 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>鵜川医院レター（20260326）</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="31c33e35-d188-809e-ad4c-dda184e3cf7a" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1568569350062-ebfa3cb195df?ixlib=rb-4.1.0&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon notion-static-icon" src="https://www.notion.so/icons/aries_orange.svg"/></div><h1 class="page-title" dir="auto">鵜川医院レター（20260326）</h1><p class="page-description" dir="auto"></p><table class="properties"><tbody><tr class="property-row property-row-date"><th><span class="icon property-icon"><img src="https://www.notion.so/icons/calendar_gray.svg" style="width:14px;height:14px;display:block"/></span>作成日</th><td><time>2026年3月26日</time></td></tr><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><img src="https://www.notion.so/icons/list_gray.svg" style="width:14px;height:14px;display:block"/></span>分類</th><td><span class="selected-value select-value-color-pink">鵜川医院レター</span></td></tr><tr class="property-row property-row-created_by"><th><span class="icon property-icon"><img src="https://www.notion.so/icons/user-circle_gray.svg" style="width:14px;height:14px;display:block"/></span>作成者</th><td><span class="user"><span class="icon text-icon user-icon"><span class="user-icon-inner">K</span></span>Kunio Ukawa</span></td></tr></tbody></table></header><div class="page-body"><div style="display:contents" dir="auto"><h1 id="32f33e35-d188-80b4-8ded-c794bfe79b69" class="">「檸檬」の déjà-vu</h1></div><div style="display:contents" dir="auto"><h2 id="32f33e35-d188-80e0-9414-ff2262de4a2b" class="">既視感</h2></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80a8-96b4-df8b1c3d1675" class="">2026年3月24日、朝日新聞の「天声人語」が、神保町の電話ボックスに集まる若者たちと梶井基次郎の『檸檬』を結びつけて語っていた。人気アニメ『チェンソーマン』の聖地巡礼と、かつて京都の丸善にレモンを置きたいと憧れた文学少年の思い、これが見事に重なるというコラムだ。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8013-a46b-d5bd256ce8ca" class="">さらに評論家の常見陽平氏も、これに呼応するように米津玄師の「Lemon」や鬼滅の刃を引き合いに出し、時代を超えたコンテンツの力を説いている。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80f7-89d4-ef13ea86c65c" class="">これらの言説を読みながら、私はひとり、妙な納得感を覚えていた。実は以前、私は藤本タツキ（チェンソーマンの作者）の漫画について、「これは梶井基次郎の『檸檬』と同じだ」とレター（2022年5月ごろ）に書いたことがあったからだ。（覚えている人がいますか？）</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80d7-9dc9-e63199c3a28e" class="">発想は全く違うわけだが、その相似はしかし、藤本作品の文学的肌触りと無縁ではあるまい。</p></div><div style="display:contents" dir="auto"><h2 id="32f33e35-d188-808c-83e0-daf5760cd868" class="">「さよなら絵梨」とレモンの爆発</h2></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-803f-977f-c65940382b22" class="">藤本タツキは、おそらく梶井基次郎を読んでいる。そうでなければ、あのアナーキーな瑞々しさは説明がつかない。</p></div><div style="display:contents" dir="ltr"><figure id="32f33e35-d188-809c-8299-f76fa0520b34" class="image"><a href="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image.png"><img style="width:384px" src="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80dd-b1cf-cccecc1101bf" class="">梶井の『檸檬』の主人公は、得体の知れない鬱屈を抱えた末に、一個のレモンを「爆弾」に見立てて京都丸善の書棚に置いて去る。その行為によって、重苦しい世界を一瞬で吹き飛ばそうとした。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80f0-a81e-eee3fcbb6cd2" class="">一方、藤本タツキの傑作短編『さよなら絵梨』において、その役割を担っているのはスマートフォンだ。物語のラスト、すべてを飲み込むような大爆発。レモンがスマホに置き換わっても、そこにある「不吉な塊を粉砕したい」という若き衝動の本質は変わっていない。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80b7-a6b0-ca6c89f99bc7" class="">それは、<a href="https://hideonakane.com/text/2022L.html">中根秀夫の個展「Lemon」</a>で目にした、積み上げられたキャンバスの側面にある小さなオレンジ色の絵の具にも感じた。中根が作品の中に密かに忍ばせていた「記憶」はキャンバスに見立てられ、観察者である自分もまた自らの人生をそこに投影した。飛び散った絵の具は、それらが爆発したことを意味しているように思われ、しばしの間。考え込んだのであった。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8099-a6d2-fa7f38793820" class="">表現者たちは、時代を超えて「爆弾」を仕掛け合っているのではないか。</p></div><div style="display:contents" dir="ltr"><figure id="32f33e35-d188-80b1-aa02-f2c337863f90" class="image"><a href="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%201.png"><img style="width:240px" src="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%201.png"/></a></figure></div><div style="display:contents" dir="auto"><h2 id="32f33e35-d188-80d5-97c2-efd7185c6cb6" class="">時間を巻き戻す果実</h2></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8016-998d-d703d13e4f68" class="">「そんなにもあなたはレモンを待ってゐた」</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-804f-afcd-c42c1fa0d94e" class="">高村光太郎の『レモン哀歌』を読み返すと、死の間際に正気を取り戻す智恵子の姿が描かれている。梶井のレモンもまた、主人公に本来の瑞々しさを一瞬だけ取り戻させる装置だった。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80f9-b689-c039d1241371" class="">米津玄師が『Lemon』で、あえて鮮烈な黄色を描写せず「匂い」や「断面」を歌ったのも、我々の無意識に刷り込まれた「あの果実」の記憶を呼び覚ますためだろう。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8045-bc5b-f9b01f8700d1" class="">現代の私たちは、戦前の人々がレモンに抱いたような希少な憧憬（世界、自分の過去、そして酸味）は持っていない。しかし、スマホというデバイスを通じて、誰もが「一瞬で世界を旅し、あるいは過去へと遡り、急に消え去る」感覚を共有している。藤本タツキの描く物語が、数百万人もの心を掴むのは、現代の「爆弾」の扱い方を彼が熟知しているからに他ならない。</p></div><div style="display:contents" dir="auto"><h2 id="32f33e35-d188-80bd-bbf0-d1cb2421dafd" class="">ハヤシライスの並行世界</h2></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-808b-aa8f-f84ba5951cc0" class="">かつて丸善の創業者・早矢仕有的が考案したといわれるハヤシライスは、今や日本の家庭の味として定着した。私の母方の祖父、外科医であった林秋廣もまた「葉椰子」というペンネームで文章を書く人だったが、従兄弟が店主である小田原の「葉椰子」では、本物のドミグラスソースが味わえる。「葉椰子ライス」だ。ミシュランのビブグルマンにも掲載された。</p></div><div style="display:contents" dir="ltr"><figure id="32f33e35-d188-8029-b87d-e3c665924563"><a href="http://www.yosyoku-hayashi.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">洋食　葉椰子　－　こだわりの一皿を気軽に楽しめる店</div><div class="bookmark-description">神奈川県小田原市栄町
+    2-7-30 内田ビル1F       
+    TEL　0465(24)8840  
+    
+    
+    営業時間
+    ランチ　11:30～15:00
+  ディナー　17:30～21:00
+  
+  定休日　
+  木曜日</div></div><div class="bookmark-href">http://www.yosyoku-hayashi.com/</div></div></a></figure></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80a0-b39e-d3d018a7adac" class="">文化や表現とは、多列的に、形を変えながら、手渡されていくものなのだろう。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80be-8373-f67e06603f2d" class="">天声人語筆者が神保町の電話ボックスに見て感じた印象は、藤本タツキ作品を読んでいた私にとってはすでに「既視感のある並行世界」だ。梶井基次郎の亡くなった3月24日は檸檬忌と呼ぶそうだ。没後94年。すべての作品が青空文庫でアクセスできる時代だが、彼の「爆弾」の影響は、今も藤本タツキの漫画の中で、あるいは誰かの歌の中で生き続けている。</p></div><div style="display:contents" dir="ltr"><figure id="32f33e35-d188-80eb-8853-d0fca3c416ad"><a href="https://www.aozora.gr.jp/index_pages/person74.html" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">作家別作品リスト：梶井 基次郎</div></div><div class="bookmark-href"><img src="https://www.aozora.gr.jp/favicon.ico" class="icon bookmark-icon"/>https://www.aozora.gr.jp/index_pages/person74.html</div></div></a></figure></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8067-a25e-c768456eec02" class="">心を動かされた時に、真似したくなる、あるいは聖地巡礼したくなる、その気持は普遍的なものだ。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80d2-920a-f376379beb6c" class="">丸善でレモンケーキを食べるのもいいが、まずはあの小田原の「葉椰子ライス」を、もう一度味わいに行きたくなっている。</p></div><div style="display:contents" dir="auto"><hr id="32f33e35-d188-8037-9f34-ed2d4ce3e0a8"/></div><div style="display:contents" dir="auto"><h1 id="32b33e35-d188-80b4-9c9d-d35ae9c09e1f" class="">腎機能要精査</h1></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8094-89cf-f4c4fee9c2c8" class="">腎臓の働きを表す指標に「eGFR」があります。これは血液検査の「クレアチニン」をもとに、年齢や性別を加味して「1分間にどれくらい血液を濾過できているか」を推定した値です。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80d7-9aef-ddfe5a67da70" class="">本来、このクレアチニンは健康状態と非常に関連の深い重要な指標ですが、特定健診では長らく標準項目に含まれておらず、現場ではその重要性が十分に共有されてきたとは言えません。そのため、最近になりeGFRの低下を指摘されて初めて驚かれる方が少なくありません。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8099-a794-f9c6f7f69b59" class="">eGFRは60未満になると「要注意」とされ、自治体あるいは保険組合から受診を勧められます。このとき多くの方が「病気なのか」と不安になりますが、ここで大切なのは少し視点を変えることです。これまでの「要精検」は「病気かどうか」を見極めるものでした。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80bc-8ad5-d5f3045a977e" class="">一方、腎機能の場合は<strong>「これからの変化にどう対応していくか」</strong>を考えるためのサインです。「骨粗鬆症」や「フレイル」、「認知機能」と同じく、「今の状態をどう保つか」という問題に近いものです。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80b4-a521-eb5258671f14" class="">実際、日本は透析患者数が非常に多い「腎臓要注意国」です。ただし、これは裏を返せば、<strong>「早めに気づいて対策すれば、機能を守れる領域でもある」</strong>ということです。当院では、最新の知見に基づいて「腎臓を守る戦略」をお伝えしています。</p></div><div style="display:contents" dir="auto"><hr id="32b33e35-d188-8027-8a53-ec82a2033859"/></div><div style="display:contents" dir="auto"><h3 id="32b33e35-d188-80c5-a373-e34407990df3" class="">1. なぜ「再検査」が必要なの？</h3></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8008-a05a-dbe399fa5d2c" class="">検診で使われる「eGFR（推算糸球体濾過量）」という数値は、実は「その日の体調」や「水分不足」にとても敏感です。</p></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-804c-8ca1-d33df9544598" class="bulleted-list"><li style="list-style-type:disc"><strong>水分の影響:</strong> 体がカラカラの状態だと、腎臓の数値は悪く出てしまいます。</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-803e-980a-da2f36fee174" class="bulleted-list"><li style="list-style-type:disc"><strong>胃の検査との関係:</strong> バリウム検査などで水分を制限されると、正確な評価ができません。</li></ul></div><div style="display:contents" dir="auto"><blockquote id="32b33e35-d188-8013-a287-e0fad69bdbc1" class=""><strong>【受診時のお願い】</strong><br/>再検査に来られる際は、<strong>しっかり水分を摂ってから</strong>お越しください。もし胃の検査と重なる場合は、腎臓の数値を優先して、胃の検査を後日にずらすことをお勧めしています。</blockquote></div><div style="display:contents" dir="auto"><hr id="32b33e35-d188-8023-9557-d07ac82bcce1"/></div><div style="display:contents" dir="auto"><h3 id="32b33e35-d188-801d-b578-df8e333c6a2f" class="">2. 当院の「ダブルチェック」戦略</h3></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80a8-ab25-d982b47c662a" class="">「クレアチニン」という一般的な検査だけでは、筋肉量などの影響で誤差が出ることがあります。そこで当院では、「シスタチンC」という別の指標も組み合わせて測定します。</p></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-8021-88ac-e5c717069cd7" class="bulleted-list"><li style="list-style-type:disc"><strong>2つ測る理由:</strong> 最近の有力な論文で、2つの指標を組み合わせて計算する方が、腎臓の本当の力を最も正確に映し出すことが証明されました。</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-80ac-bbd7-cc5d36aa02b2" class="bulleted-list"><li style="list-style-type:disc"><strong>「隠れた悪化」を見逃さない:</strong> 実は、一般的な数値上では「あまり変わっていない」ように見えても、水面下で腎臓の疲れが進んでいることがあります。2つの検査を行うことで、そのサインをいち早くキャッチします。</li></ul></div><div style="display:contents" dir="auto"><hr id="32b33e35-d188-80be-9e80-e584794b6bfd"/></div><div style="display:contents" dir="auto"><h3 id="32b33e35-d188-801b-8b79-f7d400176ef0" class="">3. 「あれもダメ、これもダメ」ではありません</h3></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8028-b0de-de4825e26703" class="">「腎臓が悪い＝お肉を食べられない（蛋白制限）」と思われがちですが、検診で引っかかる段階（G3期）で一番大切なのはそこではありません。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80cf-825e-e178fd9c14e9" class="">当院では、まず以下のステップを優先します。</p></div><div style="display:contents" dir="auto"><ol type="1" id="32b33e35-d188-8065-9258-d9dee3ebffc9" class="numbered-list" start="1"><li><strong>水分の摂り方と減塩:</strong> 腎臓にかかる「圧力」を下げてあげることが先決です。</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32b33e35-d188-8034-9bb5-ca5fa8dd0b6e" class="numbered-list" start="2"><li><strong>血圧と血糖のコントロール:</strong> お薬の力（ARBやSGLT2阻害薬など）を借りて、腎臓を長持ちさせます。</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32b33e35-d188-8019-83ea-c49f40b1de3a" class="numbered-list" start="3"><li><strong>「腎臓教室」への参加:</strong> 市役所や基幹病院で行われている教室や公開講座は、一方的な指導ではなく、生活の知恵が詰まっています。参加された方は皆さん「行ってよかった！」と前向きになられます。</li></ol></div><div style="display:contents" dir="auto"><hr id="32b33e35-d188-8002-9fa0-c40372d680c1"/></div><div style="display:contents" dir="auto"><h3 id="32b33e35-d188-80b0-a22a-cc114ff60c25" class="">まずは、一度ご相談ください</h3></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-803a-b57b-e1d431265ad2" class="">腎臓は症状が出にくく、自分では気づかないうちに変化が進みます。でも、最新の検査方法と正しい生活習慣を組み合わせれば、決して怖いものではありません。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8077-b470-cbe274fd8179" class="">検診で異常を指摘されたらご相談下さい。今の状態を把握し、あなたの腎臓にとって、今一番大切な「守り方」を一緒に考えていきたいと思います。</p></div><div style="display:contents" dir="auto"><hr id="32b33e35-d188-8021-b36e-fc9d6bc77d86"/></div><div style="display:contents" dir="auto"><h1 id="32933e35-d188-8035-af8b-f1a4017b539a" class="">慢性腎臓病G3期の評価アルゴリズム</h1></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80aa-b3fb-d91151642762" class="">日本は世界で第二位の透析国です。日本人は世界的に見て腎機能が良くないのです。ネコも腎機能は弱いのですが、それで安心していいという問題でもありません。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-808f-912b-cf47efdbef2c" class="">ちなみに一位は台湾です。このツートップは、「民族的文化的に腎臓に負担＋平等な医療が届きやすい」という二側面が反映した結果だと考えられます。</p></div><div style="display:contents" dir="ltr"><figure id="32933e35-d188-80c2-b8af-f040e04d3f7e" class="image"><a href="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%202.png"><img style="width:384px" src="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%202.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80e1-8282-f28b03511398" class="">この課題を解決するためには、#1糖尿病の合併症としての腎症を進行させない、#2加齢に伴い悪化する腎機能を保つ、この2点が有効で、日本の健康保険では特に手厚く予防が行われるように予算が確保されています。また、MRA、ARBやSGLT2阻害薬などの手段も充実してきています。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8002-b4db-d61364202899" class="">透析クリニックをしている友人から聞くには「予防が本当に大事で減塩や薬の効果も実感できる」という事でした。したがって私も患者さんには積極的に市役所の「腎臓教室」に出ていただくように声掛けをしています。そして「とても良かった」という反応をいただきます。</p></div><div style="display:contents" dir="auto"><h3 id="32933e35-d188-80ac-8ba9-e6dbde3b1a35" class="">腎機能評価はシスタチンCを併用する</h3></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8054-a8f0-d03542a78b65" class="">最近読んだ論文で「これは診察室ですぐ応用できそうだ」というものがありました。どう患者さんの腎機能をフォローしたらより有効なのか、という内容です。</p></div><div style="display:contents" dir="ltr"><figure id="32933e35-d188-80f7-b689-c46f1412cc40"><a href="https://www.bmj.com/content/392/bmj-2025-085005" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title"></div></div><div class="bookmark-href">https://www.bmj.com/content/392/bmj-2025-085005</div></div></a></figure></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8064-bef0-d8127cf074b6" class="">結論から言うと、私が従来採用していた<strong>「クレアチニンとシスタチンCの両方を使う」方法が、現在の最も精度の高い戦略</strong>と言えます。安心しました。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8085-b0d7-eb80163b3e45" class="">論文では、クレアチニンのみ、あるいはシスタチンCのみの推算式よりも、<strong>両方の数値を組み込んだ併用式（CKD-EPIやEKFCのcreatinine-cystatin C式）の方が、実測GFR（iohexolクリアランス）の変化をより正確に反映した</strong>と報告されています。</p></div><div style="display:contents" dir="auto"><h3 id="32933e35-d188-8011-adc6-f6e65f6ec852" class="">しかし腎機能の悪化は過小評価されがち</h3></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80a5-a45b-d6aadf78ac51" class="">また、大切な事も書かれています。この研究の最もショッキングな発見の一つとも言えますが、「すべての推算式（eGFR）は、実際の腎機能の低下スピードを過小評価している」という点です。悪化したかどうか、の感度は54.1%未満、とされます。</p></div><div style="display:contents" dir="auto"><ul id="32933e35-d188-80ee-ac33-de11a16aa389" class="bulleted-list"><li style="list-style-type:disc"><strong>注意点:</strong> 実測値では腎機能が大きく低下していても、検査データのeGFR上では「緩やかな低下」に見えてしまう傾向があります。</li></ul></div><div style="display:contents" dir="auto"><ul id="32933e35-d188-80d2-bf7e-f12f254e0b70" class="bulleted-list"><li style="list-style-type:disc"><strong>戦略:</strong> eGFRが少ししか下がっていないからといって安心せず、特に進行リスクの高い患者（糖尿病合併や高度蛋白尿など）では、数値以上に腎機能が低下している可能性を念頭に置いて介入を強める。</li></ul></div><div style="display:contents" dir="auto"><ul id="32933e35-d188-80ff-b25a-e102f82821ba" class="bulleted-list"><li style="list-style-type:disc"><strong>過小評価の理由</strong>: 糖尿病悪化時には浸透圧利尿によってみかけのeGFRは下がりますし、蛋白尿でも同様です。腎臓が悪くなりかけるときにクレアチニンが多めに尿に排泄されるということが起きるからです。ちなみに甲状腺機能もeGFRに大きく影響します。私はすでにこれらの因子は外来で織り込んでいます。</li></ul></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80f9-9fd9-edfe046ca09a" class="">「進行の検知」にはしたがって、糖尿病や高血圧の他の合併症の進行、微量アルブミン尿を組み合わせるべきとされています。（おそらく筋肉量＝フレイルの把握も重要で、TANITAの体組成計を使おうかなと思っています。不正確であっても、相対的な数値の変化は意味あることなので）</p></div><div style="display:contents" dir="auto"><h3 id="32933e35-d188-803c-b7d2-c7bdb9bca5e6" class="">どうシスタチンCを組み合わせるか。</h3></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8011-896e-f84eca7fa07a" class="">論文では、<strong>CKD-EPI式</strong>と<strong>EKFC式</strong>の「creatinine-cystatin C併用式」が比較されましたが、どちらかが圧倒的に優れているという結論ではありませんでした。</p></div><div style="display:contents" dir="auto"><ul id="32933e35-d188-801b-a8c9-e741da54fa45" class="bulleted-list"><li style="list-style-type:disc"><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>e</mi><mi>G</mi><mi>F</mi><msub><mi>R</mi><mrow><mi>c</mi><mi>r</mi><mo>−</mo><mi>c</mi><mi>y</mi><mi>s</mi></mrow></msub><mo>=</mo><mn>135</mn><mo>×</mo><mi>min</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>S</mi><mrow><mi>c</mi><mi>r</mi></mrow></msub><mi mathvariant="normal">/</mi><mi>κ</mi><mo separator="true">,</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mi>α</mi></msup><mo>×</mo><mi>max</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>S</mi><mrow><mi>c</mi><mi>r</mi></mrow></msub><mi mathvariant="normal">/</mi><mi>κ</mi><mo separator="true">,</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>0.544</mn></mrow></msup><mo>×</mo><mi>min</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>S</mi><mrow><mi>c</mi><mi>y</mi><mi>s</mi></mrow></msub><mi mathvariant="normal">/</mi><mn>0.8</mn><mo separator="true">,</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>0.323</mn></mrow></msup><mo>×</mo><mi>max</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>S</mi><mrow><mi>c</mi><mi>y</mi><mi>s</mi></mrow></msub><mi mathvariant="normal">/</mi><mn>0.8</mn><mo separator="true">,</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>0.778</mn></mrow></msup><mo>×</mo><msup><mn>0.9961</mn><mrow><mi>A</mi><mi>g</mi><mi>e</mi></mrow></msup><mo>×</mo><mo stretchy="false">[</mo><mn>0.963</mn><mtext> if female</mtext><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">% CKD-EPI 2021
+eGFR_{cr-cys} = 135 \times \min(S_{cr}/\kappa, 1)^{\alpha} \times \max(S_{cr}/\kappa, 1)^{-0.544} \times \min(S_{cys}/0.8, 1)^{-0.323} \times \max(S_{cys}/0.8, 1)^{-0.778} \times 0.9961^{Age} \times [0.963 \text{ if female}]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.13889em;">GF</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2583em;"><span style="top:-2.55em;margin-left:-0.0077em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">cr</span><span class="mbin mtight">−</span><span class="mord mathnormal mtight">cys</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">135</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop">min</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">cr</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathnormal">κ</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.0037em;">α</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mop">max</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">cr</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathnormal">κ</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">0.544</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1002em;vertical-align:-0.2861em;"></span><span class="mop">min</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">cys</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mord">/0.8</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">0.323</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1002em;vertical-align:-0.2861em;"></span><span class="mop">max</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">cys</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mord">/0.8</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">0.778</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9247em;vertical-align:-0.0833em;"></span><span class="mord">0.996</span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">g</span><span class="mord mathnormal mtight">e</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">0.963</span><span class="mord text"><span class="mord"> if female</span></span><span class="mclose">]</span></span></span></span></span><span>﻿</span></span></li></ul></div><div style="display:contents" dir="auto"><ul id="32933e35-d188-80c7-9082-da65e0af6f01" class="bulleted-list"><li style="list-style-type:disc">定数表<div style="display:contents" dir="ltr"><table id="32933e35-d188-8053-bff1-da5fb04bfe5f" class="simple-table"><tbody><div style="display:contents" dir="ltr"><tr id="32933e35-d188-8080-a786-e448d44bf459"><td id="ISXU" class="" style="width:113.32127380371094px">性別</td><td id="m}WN" class="" style="width:97.32072448730469px">κ</td><td id="^&lt;?b" class="" style="width:95.32127380371094px">α</td></tr></div><div style="display:contents" dir="ltr"><tr id="32933e35-d188-806a-9c78-e375710cf89f"><td id="ISXU" class="" style="width:113.32127380371094px">女性</td><td id="m}WN" class="" style="width:97.32072448730469px">0.7</td><td id="^&lt;?b" class="" style="width:95.32127380371094px">-0.248</td></tr></div><div style="display:contents" dir="ltr"><tr id="32933e35-d188-801b-8b30-fe510dee99ac"><td id="ISXU" class="" style="width:113.32127380371094px">男性</td><td id="m}WN" class="" style="width:97.32072448730469px">0.9</td><td id="^&lt;?b" class="" style="width:95.32127380371094px">-0.601</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80f4-bef4-f2781f9c40a4" class="">現在、国際的に最も標準的な式です（人種補正係数を含まない新しいバージョン）。</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="32933e35-d188-805a-ad9d-fc6031a6fe7c" class="bulleted-list"><li style="list-style-type:disc">EKFCは非常に複雑なのでここでは載せません。</li></ul></div><div style="display:contents" dir="auto"><h3 id="32933e35-d188-807c-b4ab-ee8a0f1e2210" class="">実臨床でのアルゴリズム</h3></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-80f8-8d66-e32ac3707b22" class="numbered-list" start="1"><li>検診でeGFR&lt;60を指摘</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-80d8-863c-c8eb26d0d21a" class="numbered-list" start="2"><li>プレアナリティカル・ケア：十分水分をとってから受診するよう指示する</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-80cc-8478-d4326f44341f" class="numbered-list" start="3"><li>クレアチニンとシスタチンCを再測定、慢性腎炎の除外を行い、糖尿病や高血圧、蛋白尿などの評価を行う</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-80b9-bbdb-cbdd02d6e3ad" class="numbered-list" start="4"><li>腎臓教室など介入</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-80a3-9fa5-cafea1d73a49" class="numbered-list" start="5"><li>半年後の評価、2回目以後尿アルブミンも測定、必要あれば再介入→繰り返し</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-8095-a6cb-dffc8f52f15e" class="numbered-list" start="6"><li>1年後の評価は検診で代用しても良いが、主に変化に注意する</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="32933e35-d188-8050-8678-f9d41ce76a64" class="numbered-list" start="7"><li>検診では事前に十分水分をとるように指示する、もしも胃の検査で水分を制限されるならば、胃の検査は受けないよう指示する</li></ol></div><div style="display:contents" dir="auto"><h3 id="32933e35-d188-806a-b897-cf4e13c3e3b3" class="">まとめ</h3></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8008-a903-ecdd8f4822a0" class="">腎臓の先生が書いた文章は、G3期で蛋白制限が最初に書いてあることが多く、臨床の実感とはあいません。調べてみると尿アルブミンが出ていない、eGFRが低下してみえる人々はかなりいるので、これらの人々では水分摂取、減塩や血圧コントロールを優先順位として先に考えたいと思っています。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8060-b144-c32980841b19" class="">対面で行われる腎臓教室ではアルコールやタバコのことも含めて全体がバランスよく指導される印象はあるので、本やWebでのセルフラーニングよりは、まずは市や病院で行われる市民講座などに出席することをおすすめしたいです。</p></div><div style="display:contents" dir="auto"><hr id="32933e35-d188-80ff-be3d-f80b71759aae"/></div><div style="display:contents" dir="auto"><h1 id="32933e35-d188-8045-a3ab-fcfbf8110b8c" class="">高血圧診療のアルゴリズム</h1></div><div style="display:contents" dir="auto"><h3 id="32b33e35-d188-801f-a623-db1b699d03c1" class="">脳や心臓を守る理想、システムを回す現実</h3></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8059-b663-cbadff5729d1" class=""><em>BMJ Open</em> 誌に、カリフォルニア大学の大規模医療システムにおける高血圧治療アルゴリズムの報告があります。これは一見すると単なる治療フローチャートですが、実態はガイドラインとは異なる思想で設計されています。</p></div><div style="display:contents" dir="ltr"><figure id="32933e35-d188-804d-a246-e1cf6ad922cb"><a href="https://bmjopenquality.bmj.com/content/15/1/e003753" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title"></div></div><div class="bookmark-href">https://bmjopenquality.bmj.com/content/15/1/e003753</div></div></a></figure></div><div style="display:contents" dir="auto"><h4 id="32b33e35-d188-80c2-9f6c-f9692c214b44" class="">高血圧治療ガイドライン JSH2025との比較</h4></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-807f-bd26-ebdea1da8ee7" class="">主な項目についてカリフォルニア大学と日本のガイドラインを比較してみました。</p></div><div style="display:contents" dir="ltr"><table id="32b33e35-d188-803b-984b-cd0afe1e0c14" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="32b33e35-d188-80e3-9b62-e3d6d1091ba6"><th id="h|CZ" class="simple-table-header-color simple-table-header">項目</th><th id="&lt;iCB" class="simple-table-header-color simple-table-header">UC</th><th id="aX&lt;n" class="simple-table-header-color simple-table-header">JSH</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="32b33e35-d188-801c-8e15-ec00ff098471"><td id="h|CZ" class="">初期</td><td id="&lt;iCB" class="">2剤固定</td><td id="aX&lt;n" class="">5系統同列</td></tr></div><div style="display:contents" dir="ltr"><tr id="32b33e35-d188-807f-b599-e476e0a0aed5"><td id="h|CZ" class="">軸薬</td><td id="&lt;iCB" class="">ARB+利尿薬</td><td id="aX&lt;n" class="">個人に合わせる</td></tr></div><div style="display:contents" dir="ltr"><tr id="32b33e35-d188-8065-816b-ebd3ea66a615"><td id="h|CZ" class="">β遮断薬</td><td id="&lt;iCB" class="">早め</td><td id="aX&lt;n" class="">適応限定</td></tr></div><div style="display:contents" dir="ltr"><tr id="32b33e35-d188-8042-a05c-f5251369b156"><td id="h|CZ" class="">柔軟性</td><td id="&lt;iCB" class="">やや固定</td><td id="aX&lt;n" class="">個人に合わせる</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><h4 id="32b33e35-d188-8096-88fd-f9fbcef8ad14" class="">カリフォルニア大学のそれは「ガイドライン」ではない</h4></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8044-805e-f239f0a4497a" class="">まず押さえるべきは、この論文の立ち位置です。このアルゴリズムは、病態生理やアウトカムに基づく最適化というよりも、</p></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-807c-ac6e-ef6b14bb32ec" class="bulleted-list"><li style="list-style-type:disc">コスト（affordability）</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-80f5-a3b4-f73e6d39cb05" class="bulleted-list"><li style="list-style-type:disc">入手性（availability）</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-80d1-b4d5-dab3607625ce" class="bulleted-list"><li style="list-style-type:disc">運用の単純さ（simplicity）</li></ul></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8011-ae93-ebc43e613502" class="">を軸に設計されていることが明記されています。保険組合側が目指すことは、平等で安く効果が高い治療です。初期から配合剤を用い、処方のばらつきを抑え、誰がどこで診ても同じ治療に収束させる目的があります。これはガイドラインではなく、むしろ<strong>フォーミュラリーに近い発想</strong>であり、</p></div><div style="display:contents" dir="auto"><blockquote id="32b33e35-d188-80d9-a176-d389fb98f170" class="">「最適な薬を選ぶ」のではなく、<br/><strong>「最も持続可能な処方に寄せる」</strong></blockquote></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-806d-9d59-d4f74cc66a1a" class="">という設計となっています。</p></div><div style="display:contents" dir="auto"><h4 id="32b33e35-d188-8058-9e1c-e3873d3f0ccf" class="">なぜ初期投与がARB＋利尿薬になるのか</h4></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80f9-8d98-c8b3ffb6b52f" class="">この文脈では、ARB＋サイアザイド系利尿薬が第一選択になる理由は明快で、</p></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-8015-80ec-ccf4d5792689" class="bulleted-list"><li style="list-style-type:disc">安価</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-80cc-9621-f09fca514196" class="bulleted-list"><li style="list-style-type:disc">どの保険でも通りやすい</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-800e-bf7b-ec3adcecedaa" class="bulleted-list"><li style="list-style-type:disc">配合剤として提供されている</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-8036-9a7a-c633d9cea67b" class="bulleted-list"><li style="list-style-type:disc">多くの患者で一定の降圧効果が見込める</li></ul></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80f6-8e65-cbc62a82671d" class="">これが最も確実で持続可能な組み合わせだという事に疑問は持ちません。</p></div><div style="display:contents" dir="auto"><h4 id="32b33e35-d188-80e6-8696-f783124ae039" class="">ガイドラインがあってもばらつく理由</h4></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80ab-8687-d72bdd0deacb" class="">日本でも欧米でも以前からガイドラインがちゃんとあるのですが、ガイドラインは明確に<strong>アウトカム志向</strong>で設計されています。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-803a-a0c3-cb6fb6ebc71b" class="">治療目標をこうして下さい、こういう指標を役立てて下さい、そういう事は書いてあるのですが、</p></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-80f4-a607-e901bb88508a" class="bulleted-list"><li style="list-style-type:disc">途中で治療を変える場合の患者説明</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-801b-9e7b-dddaf1ad0489" class="bulleted-list"><li style="list-style-type:disc">患者の経済状況</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-80af-9f99-f56deb745328" class="bulleted-list"><li style="list-style-type:disc">患者のアドヒアランス</li></ul></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80cb-8505-e38ce5ae57b2" class="">などについて寄せてきてはいません。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8075-91b3-c338f243215c" class="">日本と海外では、脳か心臓か、のような設計思想の差はあると思いますが、それよりも「フォーミュラリー的な発想」以前／以後を比較すると確実に血圧が下がった、と論文で示されたことは大きな意味があります。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-809d-a3bb-f53a69b2d310" class="">実は学会もわかっていて、JSH2025では明らかに「方針決定のしやすさ」が意識されているように見えます。「全年齢で130/80mmHg未満」「早期介入（1ヶ月以内の再評価・薬物導入）」「STEPに基づく治療強化」が明文化され、ばらつきを少なくしようという努力が見られます。</p></div><div style="display:contents" dir="auto"><h4 id="32b33e35-d188-801d-9b0e-d7d4c493b364" class="">ARNIなど越境してくる薬の登場</h4></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8031-8295-d347b55a2942" class="">近年、循環器領域からはエンレスト（ARNI）が持ち込まれています。入院した患者さんの多くが血圧コントロール目的で処方されている印象です。この薬剤は単なる降圧薬ではなく、「RAAS抑制」「ナトリウレティックペプチド系増強」を併せ持つことで、心不全進展の抑制に寄与します。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-803f-a6a4-f5e6f3950574" class="">SGLT2阻害薬も越境してくる薬です。この薬は近位尿細管での糖再吸収を抑制し血糖を下げますが、結果的に浸透圧利尿をもたらし腎臓の機能を保持してくれます。エンレストと合わせて心臓を守るエース級のお薬です。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80d8-865d-ff17fedd7902" class="">GLP-1受容体作動薬も越境してきます。これも元々は糖尿病の薬で「嘔気」「食欲が出ない」などの副作用があるよ、とされていました。でもこの作用はダイエットに繋がることがわかり、しかもその効果が今までのダイエット薬をはるかに凌駕するため、スマッシュヒットとなりました。これも結果的には血圧を下げてくれます。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-8002-aacf-dff5a0b0f1ca" class="">このように<strong>高血圧治療は「臓器横断的な疾患管理」に移行しつつある兆候</strong>が見えています。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80e0-808f-f81f5068dea0" class="">したがってアウトカム志向であるガイドラインの他に、<span style="border-bottom:0.05em solid">フォーミュラリー的なアルゴリズムがより重視される時代が来る</span>のだろうというのが今回この論文やJSH2025の変化を見て思ったことでした。</p></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80bb-9d6f-ded4cf4a45d8" class="">当院はもともと院内処方なので「フォーミュラリー的な発想」になりやすい設計です。人工知能の登場で個別化医療は行いやすくなっているので、より効果が高くて安く持続可能な治療ができる時代が到来していると感じています。</p></div><div style="display:contents" dir="ltr"><figure id="32b33e35-d188-8075-a953-ed14ba553c0c" class="image"><a href="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%203.png"><img style="width:475.484375px" src="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%203.png"/></a></figure></div><div style="display:contents" dir="auto"><h1 id="32933e35-d188-8092-b09f-ebf1a57e69c7" class="">「集中」ではなく「横断」：知性を再定義する</h1></div><div style="display:contents" dir="auto"><p id="32933e35-d188-801d-9c51-c31669f951d2" class="">「集中力」は優秀さの指標とされており、過去のレターでポモドーロ・テクニックを紹介したこともあります。しかし集中力で能力を評価されることに違和感を持つ御仁もいるかもしれません。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8039-a60c-f62d3f01d66c" class="">集中は一つの物事に脳や身体のリソースを割くことと理解されていますが、「集中するとは、必ずしも視野を絞ることではない」と表現することも増えているように、視野の集中は必ずしも良い結果を生まないという実感を持っている人も多いかと思います。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80fc-8553-d4b0eec290c5" class="">最近<em>Nature</em>系列の <em>Communications Biology</em> に掲載された論文（DOI: 10.1038/s42003-025-09354-4）では、知能テスト中の人間の脳をfMRIとEEGで同時に観察し、一つの結論を導き出しました。<br/><span style="border-bottom:0.05em solid">知性の高い人の脳は、前頭葉と頭頂葉が他の領域と多様につながっている。特定の回路が強く発火するのではなく、異なるネットワークを横断して接続している。</span><br/>論文はこれを「participation coefficient」という指標で表し、知性との有意な相関を示しました。すなわち知性とは集中ではなく、横断である、と。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-803a-8baf-eced464ad46d" class="">言語化されると、腑に落ちます。難しい問題を解いているときの脳内は、並列で物事を考えており、早く回転したり、フォーカスを合わせているイメージではないからです。</p></div><div style="display:contents" dir="auto"><hr id="32933e35-d188-80ce-9227-f861f122105c"/></div><div style="display:contents" dir="auto"><p id="32933e35-d188-806c-8029-ee03c8855793" class="">ただし、論文で示せることには限界があります。今回被験者が見ているのは幾何学図形です。三行三列のマトリクスの、欠けたピースを埋めるもの。脳の横断性を測るには都合がいいけれど、あれは都合よく切り出された世界で、外来とは構造が違う。外来で例えれば、文字や図形だけでコミュニケーション／情報交換するわけではありません。実際には表情、声のトーン、身振り手振りなど、多様な情報が存在します。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8091-94ff-d2400f10c7d5" class="">そんな社会における情報の横断性は、少し構造が違うでしょう。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80b0-8aaf-e78c81421f97" class="">私は外来中、意図的にぼやーっとしようとすることがあります。俯瞰する、と言ってもいいのですが、正確には少し違います。意識を一歩引かせて、無意識のレイヤーに委任する感じです。患者の訴えに矛盾があるとか、持ってきた投薬内容やデータに引っかかりがあるとか、言語化しにくい違和感があるなどのとき、すべての情報を、一度「箱に入れる」感覚。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8020-a16a-c3edfc78d467" class="">その引っかかりは患者には持ちようがないもので、同時に二つの箱が存在することになります。患者が行っているだろう思考の箱および自分の思考の箱、同時に調整して、着地点を探してうまく収集がつくように物語を作りたいのですが、集中して解けるようなものではないので、全体最適のような作業をすることになります。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80ff-be09-f964c1d84bac" class="">学生時代の試験とは違う並列処理をしていることは実感できますが、答えを得るというよりは、意思決定の直前まで準備を行う作業です。どちらにせよ頭をフル回転させることは同じで、これを「集中」とは表現できません。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8044-92a8-f39248ad16c1" class="">さらに言うならば、その並列処理には非言語的な情報がかなり混じります。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8095-ab40-c6a86380c1c6" class="">もともと脳は言語で考えてはいない、と以前書きましたが、映像とか匂いとか触感などの非言語的な情報のほうがはるかに効率は良いので、現実的な時間内で作業が可能になります。過去カルテも、マイナンバーカードによる情報も、もちろん助けになり、それらは正確ですが、言語情報ですので、少し時間がかかることを実感します。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-805d-a766-cac568875090" class="">中でも決定的なのは、診察というコンタクトそのもので、患者が入ってくるときの歩き方、声のトーン、目の動き、あるいは打診聴診触診エコーがありますが、それらが、このプロセスにもたらす影響は正確だし大きいと感じます。それが胃腸科モードで待機していた脳を、甲状腺へ、あるいは副腎皮質へと静かに、しかし素早く誘導してくれ、腹痛で来た患者さんの橋本病に気づかせてくれます。非言語的な情報は、このように重要です。</p></div><div style="display:contents" dir="auto"><hr id="32933e35-d188-80a0-84f9-ce7bcb286045"/></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8006-bc85-dd78a54a234d" class="">集中で失敗する例を挙げます。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-800d-81ad-f1d378cdbb48" class="">少し前、親しい友人が胸の違和感を覚えていたそうで、内視鏡内科を受診したそうです。本人は「心臓ではないか」とも疑っていた。しかし医師は胃腸の問題として診察検査治療を進め、心臓の可能性について質問したにも関わらず循環器系への言及は一切なかったらしい。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-809e-9d20-fd4611ef3a5b" class="">症状が改善しない友人がAIに相談すると、AIは即座に循環器科への緊急受診を勧めてくれました。最寄りのクリニックで検査したところ大学病院に搬送され、その日のうちに狭心症に対するカテーテル手術となりました。幸い全くダメージなく生還したものの、その話を聞いたときは背中がひんやりとしました。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8057-bcc7-d4a25a86aaa9" class="">構造を整理するとこうなります。賢い友人はすでに「心臓かもしれない」というモジュール横断的な仮説を持っていました。AIもそれを拾ってくれた。内視鏡医だけが、消化器モジュールの中に留まり続けましたた。その医師の技量は専門分野では高いのかもしれないが、内科としては平均以下という評価は避けがたいと思います。医学部卒業後、横断的に考える能力を育てない事は良くないなと思いました。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-8024-aebf-f97eb4770f74" class="">専門分化は知性の深化とされますが、同時にparticipation coefficient（さきほどの論文に出てきた指標で、横断係数などと表現されよう）の構造的な低下を招いてしまいます。だからこそ「総合内科」とか「プライマリ・ケア」という分野が存在するのですが、現実はうまくマッチしていません。専門分化か万能か、私たちはそのトレードオフの上に毎日座っていることは意識する必要があります。</p></div><div style="display:contents" dir="auto"><hr id="32933e35-d188-8068-8935-d8d5c0c57fe4"/></div><div style="display:contents" dir="auto"><p id="32933e35-d188-80d2-af9a-f2d5b64ca390" class="">テキストと数値の世界では、AIはすでに我々のネットワーク横断性をはるかに超えています。これを利用することで、専門分化＋万能性を得るという解決方法があります。一方で万能性に、あるいはネットワーク横断性を活かすには非言語的な情報処理が不可欠です。しかしAIは非言語的な観察をまだ持たず、ここに実際の外来におけるギャップが存在します。</p></div><div style="display:contents" dir="auto"><p id="32933e35-d188-808c-ba72-dbb10e7e1d95" class="">文章を書いていて、私は人間の知性と、人工知能の知性を区別していないことに気づきました。困ったことに、知性は横断だ、ネットワークだと書きながら、その領域で高いところに達成できるのは、人間ではなく人工知能だ、とも書いてしまった気がします。それは悲観的な意味ではありません。</p></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-8016-85bd-cb92614f1918" class="bulleted-list"><li style="list-style-type:disc">人工知能は我々が横断的に考える補助となる。</li></ul></div><div style="display:contents" dir="auto"><ul id="32b33e35-d188-8024-9ac0-f19df8d5f139" class="bulleted-list"><li style="list-style-type:disc">人工知能への問いの立て方で自らの未熟さに気づく。</li></ul></div><div style="display:contents" dir="auto"><p id="32b33e35-d188-80d2-85f7-c30d34512445" class="">観察と意思決定、感情、それから内省、これらは知能の外側にある「人間性」という名のレイヤーなのか、違うのか。少なくとも人工知能の前で我々は「自分は人間だ」と強く意識しながら生きなければならないように思います。</p></div><div style="display:contents" dir="auto"><hr id="32f33e35-d188-802e-bb8a-faf6a7738258"/></div><div style="display:contents" dir="auto"><h1 id="32f33e35-d188-80d5-b407-e9e701cb8d6d" class="">生成AIと大学生</h1></div><div style="display:contents" dir="auto"><p id="32833e35-d188-8040-81b6-c66613623e1d" class="">生成AIを成熟途上の大学生が使うことに関して、「彼らは嘘と本当を見分けられないから使うべきではない」という議論をよく目にする。あるいは、勉強していないことをごまかせてしまうから良くない、などと。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-80ff-88af-d99e2b245bd4" class="">確かにそういう一面はある。しかし、そもそも我々は師を盲目的に信頼してはならないと教わってきたはずだ。権威ある教科書であれ、著名な教授であれ、そこに誤りや偏りが含まれる可能性を前提に読み解く態度こそが学問の基礎である。生成AIに対してだけ特別に「疑う力」が必要になるわけではない。ノートを見せ合う文化が少し変質する程度の差異に過ぎないだろう。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-80e8-9b07-efe785712338" class="">良い教育者ほど「自分で考えなさい」と判断を学生に委ね、批判的思考を訓練する。生成AIを使ったからといって、その原則が揺らぐわけではない。もし揺らぐのであれば、それはツールの問題ではなく、教育の設計の問題である。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-80c5-96df-e435e82db3f5" class="">結局のところ、「観察の訓練」と「意思決定の訓練」こそが、特に医学生にとって本質的である。知識は重要だが、それはあくまで必要条件であって十分条件ではない。極端に言えば、医学部とは「美大でMBA課程を学ぶようなもの」で、評価されるべきは知識の量ではなく、それをどう使い判断するかが問われている。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-8013-884a-c71b72cd0b2d" class="">では生成AIはどのように役立つのか。現代において知識は爆発的に増大し、「俯瞰して一通りを把握する」という前提自体が崩れている。14年で全知識を総ざらい、というような時代はすでに終わった。その中で、知識検索・整理・仮説生成の一部を肩代わりする生成AIは、人間の認知的限界を補う装置として機能する。これは単なる便利ツールではなく、思考のインフラに近い。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-801b-ac92-d4015ea5deb2" class="">だからこそ、大学生、とりわけ医学生は生成AIを「使うかどうか」ではなく、「どのレベルで使うか」を問われている。実際、BMJのホームページ上にあるアンケート調査では生成AIの教育利用について賛否は真っ二つに割れている。しかしこの分断は、「使うべきか否か」という問い自体がすでに時代遅れであることを示しているようにも見える。</p></div><div style="display:contents" dir="ltr"><figure id="32833e35-d188-80c9-9828-f63e97f4be56" class="image"><a href="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%204.png"><img style="width:288px" src="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%204.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="32833e35-d188-802d-a77c-e345bce3e093" class="">社会に出れば、生成AIを使わないという選択肢はほぼ存在しない。専門外のことは分からない、という言い訳は通用しなくなる。むしろ「適切に問いを立て、必要な情報を引き出し、それを意思決定に利用できるか」が問われる。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-80a9-b6f4-fecf1f448443" class="">そして重要なのは、この「適切な問いを立てる能力」は、本来、人と人との対話の中で磨かれるべきものであり、生成AIのために新しく発明されるスキルではないという点である。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-808f-b9f0-d786a30a7106" class="">むしろ逆ではないか。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-803c-b3c1-f083ee97dcc4" class="">生成AIは、その人がどの程度「良い問い」を持っているかを、容赦なく可視化する装置である。浅い問いには浅い答えしか返らず、曖昧な思考は曖昧なまま増幅される。つまり生成AIは思考の質を暴く鏡でもある。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-80b4-a473-edea7a8b5128" class="">だから問題の本質は、「学生に使わせるべきか」ではない。「使ったときに、露呈する何か」に耐えられる教育になっているか、である。</p></div><div style="display:contents" dir="auto"><p id="32833e35-d188-80c4-99aa-efc9c0a0006d" class="">生成AIは従来の教育の破壊者ではないが、教育の未熟さを、静かに、しかし確実に露呈させる装置だ。</p></div><div style="display:contents" dir="auto"><hr id="32833e35-d188-80a4-8c85-c3d63acb99cd"/></div><div style="display:contents" dir="auto"><h2 id="32633e35-d188-801c-86ba-c057de2a125b" class="">診察室のリズム</h2></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-807c-a8f5-fde6ec2293b0" class="">「私はいつ死んでも良いんです」</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8030-95b6-dd42ce429099" class="">診療の中で、この言葉に出会う頻度は低くない。ただ、その意味は一様ではない。むしろその人の生き方や現在地を映す、いくつかの相を持っているように思う。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80d5-96ab-d74767b1d96c" class="">一つ目は、口癖としての「いつ死んでも良い」である。長く診ている患者さんの中に、もう十年以上この言葉を繰り返している方がいる。死線も越えてきた。苦労も多かったはずだが、不思議と陰鬱さがない。淡々としていて、どこか軽やかですらある。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80cd-828c-cf7db1a58372" class="">付き添いのご家族は「またあんなことを言って」と少し不満そうにする。その気持ちはよく分かる。元気でいてほしいのに、その言葉が家族の努力を台無しにしてしまうように感じるのだろう。けれど医者として、その言葉を真正面から重く受け止める必要はないと感じている。実際、この方はこれまで私の提案を拒否したことがない。受け入れは良好で、判断も一貫して合理的だ。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80aa-b5ff-f3367ae7154f" class="">この方の「いつ死んでも良い」は「死にたい」ではない。むしろ「不自然な延命に執着しない」という姿勢表明に近い。予防的介入も含め提案には概ね従っている。ゼロリスクを求める人々よりもよほど整合的で、その分「この人にとってより良い人生とは何か」という思考に集中できる。医者にとっては、奇妙にプレッシャーを外してくれる言葉でもある。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80bc-9785-fb0135cc9b52" class="">あるとき、そのことを率直に伝えた。あなたは私の提案をきちんと受け止めてくださる良い患者さんです、と。すると帰り際に「じゃあ、もう少し生きていて良いんですね」と言った。その一言に、この口癖の本質がにじんでいた気がする。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80cc-84d0-ed9d3d96bcd5" class="">さて、それまで「いつ死んでも良い」と言っていた人が、いよいよという時期に差し掛かると、急に「100までがんばる」と言い出すことがある。反転する「生への意志」である。これはまるで「心配しなくていいよ」と周囲に向けて発せられているかのようだ。そしてその言葉のあと、比較的短期間で亡くなることが少なくない。そう考えると「いつ死んでも良い」には二つ目の意味が見いだせる。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-804d-a2d8-c754f93db4d7" class="">この言葉は予後の宣言ではないのではないか。「いつ死んでも良い」とはつまり、「差し迫った死の実感はまだない」という状態の表現なのではないか。逆に、死が現実味を帯びた瞬間、言葉は反転する。「生きる」という方向へ、あるいは周囲を安心させる方向へ、最後の力を振り向ける。その言葉から、我々への気遣いを感じる。これもまた印象的である。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8030-aeab-e2336a208b07" class="">この言葉が、静かに患者さんの口から消えていくときがある。認知機能にゆがみが生じてくると、「いつ死んでも良い」は減り、やがて聞かれなくなる。口癖として繰り返していた方が、ある時期からそれを言わなくなる——その変化に気づくとき、失われたのは言葉だけではないという感覚がある。三つ目として、患者さんが自分を俯瞰できているかどうか、という側面が見いだせる。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80fb-b230-fd828a9c38b7" class="">自己の将来や死を抽象的に捉える力が低下すると、「いつ死んでも良い」というような距離のある言い回し自体が成立しなくなる。逆に言えば、この言葉を口にできるということは、時間軸を保ち、自分の生と死を俯瞰できているということだ。悲観に見えて、実は認知的な健やかさの一形態なのかもしれない。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8038-95c7-f91af36ee7f2" class="">同じ言葉でも、その意味は三通りどころか、もっと多層的なのだろう。ここで挙げたのは、たまたま思い出したいくつかの断面に過ぎない。ただ少なくとも、「いつ死んでも良い」は悲観や諦めではなく、その人なりの哲学を含んだ言葉であることが多い。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-8071-8831-d625f3de7d9b" class="">そして私にできるのは、「死」という語に過剰に反応することではなく、それがどの文脈で発せられているのかを見極めることだろう。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80e9-8a9a-d0e142fa60d3" class="">外来で何百回、何千回とこの言葉を聞いてきて、必ずしもネガティブな言葉ではないと実感している。私自身も、満足しているという意味で「いつ死んでも悔いはない」と口にすることがある。ところがそれを聞いた患者さんはたいてい狼狽し、「死なないでください」「先生が死んだら困る」と止める。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80e6-b5a4-fd84782fa1e0" class="">文脈的に問題ないと思われる場面で発しているつもりなのだが、なかなか言葉通りには伝わらない。滑舌の問題か、立場の問題か——などと悩んだ。結局いまは「私は長生きしますね」と言うようにしている。もちろんポジショントークではある。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-80c1-944b-d79680ddab18" class="">自分が何か言葉を発すると失敗するので、診察室での会話は基本的にヒアリングに徹するほうがスムーズだ。生も死も、相手の言葉の温度に合わせて、静かに伴走したい。</p></div><div style="display:contents" dir="auto"><p id="32f33e35-d188-809b-92a5-c32c5a8dd95e" class="">診察室での会話は、その瞬間よりも、もっと長い時間軸の中で意味を形成することが多い。だから普通の会話とは少し違うリズムで理解する必要がある。それを今回のタイトルとした。</p></div><div style="display:contents" dir="auto"><hr id="32f33e35-d188-80e5-a256-f84baf6c51fb"/></div><div style="display:contents" dir="ltr"><figure id="32f33e35-d188-8013-8b57-c95483533f61" class="image"><a href="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%205.png"><img style="width:384px" src="%E9%B5%9C%E5%B7%9D%E5%8C%BB%E9%99%A2%E3%83%AC%E3%82%BF%E3%83%BC%EF%BC%8820260326%EF%BC%89/image%205.png"/></a><figcaption><em>Georges Braque, Lemons, 1929</em></figcaption></figure></div><div style="display:contents" dir="auto"><p id="31c33e35-d188-808a-a53e-f0819a64c2f2" class="">
+</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
